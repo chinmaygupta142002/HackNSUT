@@ -23,7 +23,7 @@
 }
 
 .bg-pink {
-  background: #9549eb !important;
+  background: #698269 !important;
 }
 
 .bg-green {
@@ -461,7 +461,7 @@ body {
 
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(194, 157, 207, 0.75);
+  background-color: #698269;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -548,7 +548,7 @@ body {
 }
 
 .sci li a:hover {
-  background: #03a9f4;
+  background: white
   color: #fff;
 }
 
@@ -615,7 +615,7 @@ body {
   padding: 10px;
   border-radius: 0 30px 30px 0;
   transition: all 1.5s;
-  color: #f9c5d1;
+  color: white;
 }
 
 .social ul li:hover {
@@ -623,17 +623,17 @@ body {
   background: #B99B6B;
   transition: all 1.5s;
   text-decoration: none;
-  color: #f9c5d1;
+  color: white;
 }
 
 .social ul li:hover a {
   color: white;
   margin: 0px 2px 5px 2px;
   text-decoration: none;
-  color: #f9c5d1;
+  color: white;
 }
 .social_icons {
-  color: #f9c5d1;
+  color: white;
 }
 
 .social ul li:hover i {
@@ -1039,7 +1039,7 @@ img.logo {
   height: 16px;
   border-radius: 50%;
   border: 2px solid #f5f7fa;
-  background: #9795ef;
+  background: #698269;
   margin-top: 10px;
   z-index: 9999;
 }
@@ -1207,8 +1207,8 @@ h1.big-heading {
 
 .footer-dark .item.social1 > a:hover {
   opacity: 0.7;
-  background-color: #c44a73;
-  color: #c44a73;
+  background-color: #698269;
+  color: #698269;
 }
 .one {
   border: 0;
