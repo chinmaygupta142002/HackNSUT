@@ -1,11 +1,11 @@
 /* Global Variables */
 :root {
-  --primary-gradient-purple: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+  --primary-gradient-purple: linear-gradient(315deg, #D0B8A8 0%, #698269 74%);
   /* --button-gradient: linear-gradient(90deg, #5848EA, #9549EB, #6CC644); */
 }
 
 .announcement {
-  background-color: #6bb329;
+  background-color: #4f9c07;
   /*#7ac25b;*/
 }
 .announcement a {
@@ -19,7 +19,7 @@
 }
 
 .bg-purple {
-  background: #5848ea !important;
+  background: #3C6255 !important;
 }
 
 .bg-pink {
@@ -31,11 +31,11 @@
 }
 
 .text-purple {
-  color: #5848ea;
+  color: #698269;
 }
 
 .text-pink {
-  color: #9549eb;
+  color: #698269;
 }
 
 .text-green {
@@ -136,11 +136,11 @@ body {
 }
 
 .btn-static {
-  color: #5848ea;
-  border-color: #5848ea;
+  color: #698269;
+  border-color: #698269;
   background-color: transparent;
   border-radius: 50rem !important;
-  border: 1px solid#5848EA;
+  border: 1px solid#698269;
 }
 
 .btn-static:hover {
@@ -212,7 +212,7 @@ body {
 }
 
 .btn-white {
-  color: #5848ea;
+  color: #698269;
   background-color: white;
   border-color: #fff;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
@@ -235,8 +235,8 @@ body {
 }
 
 .btn-static {
-  color: #5848ea;
-  border-color: #5848ea;
+  color: #698269;
+  border-color: #5698269;
   background-color: transparent;
   border-radius: 50rem !important;
   border: 1px solid#5848EA;
@@ -609,7 +609,7 @@ body {
 .social ul li {
   display: block;
   margin: 5px;
-  background: #f16593;
+  background: #B99B6B;
   width: 300px;
   text-align: right;
   padding: 10px;
@@ -620,7 +620,7 @@ body {
 
 .social ul li:hover {
   transform: translate(110px, 0);
-  background: #c44a73;
+  background: #B99B6B;
   transition: all 1.5s;
   text-decoration: none;
   color: #f9c5d1;
@@ -637,7 +637,7 @@ body {
 }
 
 .social ul li:hover i {
-  color: #c44a73;
+  color: #B99B6B;
   background: white;
   transform: rotate(360deg);
   transition: all 1.5s;
@@ -646,7 +646,7 @@ body {
 .social ul li .social_icons {
   /* margin-left: 10px; */
   color: #ffffff;
-  background: #9795ef;
+  background: #698269;
   padding: 5px;
   border-radius: 50%;
   width: 30px;
