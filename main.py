@@ -10,8 +10,6 @@ from flask_cors import CORS
 # collections = db["authentication"]
 
 app = Flask(__name__)
-CORS(app)
-
 
 # @app.route("/")
 # def home():

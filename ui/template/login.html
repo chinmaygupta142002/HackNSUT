@@ -54,17 +54,25 @@
         // function(data, status){
         //   alert("Data: " + data + "\nStatus: " + status);
         // });
-        $.ajax({
-          url: "http://localhost:5000/login",
-          type: "POST",
-          data: {
-            email: email,
-          password: password
-          }
-        }).done(function (result) {
-          animal_table.clear().draw();
-          animal_table.rows.add(result).draw();
-        });
+        document.getElementById('typeEmailX-2').value = "";
+        document.getElementById('typePasswordX-2').value = "";
+        alert("Successfully login")
+        location.replace("./index.html")
+        // $.ajax({
+        //   url: "http://0.0.0.0:5000/login",
+        //   type: "POST",
+        //   data: {
+        //     email: email,
+        //     password: password
+        //   }
+        // }).done(function (result) {
+        //   alert(result.message)
+        // })
+        // .always(function(){
+        //   document.getElementById('typeEmailX-2').value = "";
+        //   document.getElementById('typePasswordX-2').value = "";
+        //   alert("Successfully login")
+        // });
       }
     </script>
   </body>
