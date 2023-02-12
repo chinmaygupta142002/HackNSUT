@@ -234,13 +234,13 @@ body {
   transition: all 0.2s ease;
 }
 
-.btn-static {
+/* .btn-static {
   color: #698269;
   border-color: #5698269;
   background-color: transparent;
   border-radius: 50rem !important;
   border: 1px solid#5848EA;
-}
+} */
 
 .btn-static:hover {
   color: white;
@@ -451,9 +451,9 @@ body {
 .card-testimonials {
   position: relative;
 
-  background: #fff;
+  background: #4E6C50;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  /* background: rgba(255, 255, 255, 0.1); */
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(15px);
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
@@ -547,14 +547,14 @@ body {
   visibility: hidden;
 }
 
-.sci li a:hover {
+/* .sci li a:hover {
   background: white
   color: #fff;
-}
+} */
 
 .mentor-cards-home {
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 100px;
 }
 
 .mentor-card-outer {
@@ -811,9 +811,9 @@ img.logo {
 
 /* upcoming chapters */
 
-.slide-container {
+/* .slide-container {
 
-}
+} */
 
 .slide-card {
   border-radius: 10px;
@@ -1232,4 +1232,9 @@ h1.big-heading {
 
 .container-faq {
   padding: 3%;
+}
+#user_experiences{
+  background-color: #3C6255;
+  display: block;
+  align-items: center;
 }
